@@ -92,7 +92,7 @@ const Home = () => {
             </div>
 
             <div className="flex justify-center items-center">
-                <div className="w-[80vw] h-[45vh] text-center bg-[#3C3D37] rounded">
+                <div className="w-[80vw] h-[53vh] text-center bg-[#3C3D37] rounded">
                     <div className="text-xl mt-10 font-bold mb-8 text-[#EEEADE]">
                         {questions[currentQuestionIndex].question}
                     </div>

@@ -7,7 +7,7 @@ import See from "./pages/See";
 function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false); // Track if the password is correct
     const [password, setPassword] = useState(""); // Store the entered password
-    const correctPassword = "Laaash"; // Replace with your desired password
+    const correctPassword = "laaash"; // Replace with your desired password
 
     const handlePasswordSubmit = () => {
         if (password === correctPassword) {
@@ -27,7 +27,7 @@ function App() {
                         type="password"
                         placeholder="Password"
                         value={password}
-                        onChange={(e) => setPassword(e.target.value)}
+                        onChange={(e) => setPassword(e.target.value.toLowerCase()}
                         className="p-2 rounded border border-gray-500 focus:outline-none focus:ring-2 focus:ring-[#697565] mb-4"
                     />
                     <br />

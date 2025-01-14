@@ -27,7 +27,7 @@ function App() {
                         type="password"
                         placeholder="Password"
                         value={password}
-                        onChange={(e) => setPassword(e.target.value.toLowerCase()}
+                        onChange={(e) => setPassword(e.target.value.toLowerCase())}
                         className="p-2 rounded border border-gray-500 focus:outline-none focus:ring-2 focus:ring-[#697565] mb-4"
                     />
                     <br />
